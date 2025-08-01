@@ -43,9 +43,11 @@ This project automates the provisioning of AWS infrastructure using **Terraform*
 1. Initialize Terraform with backend:
 
 terraform init
+
 2. Review the infrastructure plan:
 
 terraform plan
+
 3. Apply and deploy resources:
 
 terraform apply
@@ -53,6 +55,7 @@ terraform apply
 
 
 
+## Security Notes
 Security Notes
 -No hardcoded AWS credentials in code. Use aws configure or environment variables.
 
@@ -63,7 +66,7 @@ Security Notes
 
 
 
-
+## TODO / Next Steps
 TODO / Next Steps
  -Add CI/CD pipeline via GitHub Actions
 
