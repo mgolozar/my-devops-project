@@ -1,0 +1,11 @@
+terraform/.terraform/
+*.pem
+*_override.tf
+*_override.tf.json
+
+/.vscode/
+*.lock.hcl
+terraform-key.pem
+*.tfstate
+*.tfstate.backup
+ 
