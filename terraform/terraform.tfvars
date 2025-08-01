@@ -8,4 +8,7 @@ instance_type  = "t3.micro"
 machine_name   = "MainInstance"
 machine_system = "TerraformTutorial"
 
+backend_bucket_name = "terraform-state-mgolozar"   
+lock_table_name     = "terraform-locks"
+
 servercount=3

@@ -1,4 +1,7 @@
+# Terraform files to ignore
+
 terraform/.terraform/
+terraform/.terraform/*
 *.pem
 *_override.tf
 *_override.tf.json
@@ -8,4 +11,8 @@ terraform/.terraform/
 terraform-key.pem
 *.tfstate
 *.tfstate.backup
+*.tfstate.*
+crash.log
+terraform.tfvars
+backend-config.tfvars
  
